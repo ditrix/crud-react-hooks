@@ -1,0 +1,36 @@
+.container {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+
+  justify-content: space-right;
+  flex-direction: start;
+}
+
+aside,
+main {
+  display: block;
+  border: 1px lightgray solid;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.form-group {
+  width: 100%;
+}
+.form-group input {
+  display: block;
+}
+
+.btn {
+  padding: 5px 10px;
+  margin: 5px;
+  border: 1px solid inherit;
+  border-radius: 5px;
+}
+
+.btn-ok {
+  background-color: green;
+  color: white;
+}
